@@ -1,5 +1,4 @@
 module.exports = function check(string, config) {
-  //зачем конфиг?
   let count=0;
   while (count<50) {
     string=string.replace(/\(\)/, '');
@@ -15,5 +14,4 @@ module.exports = function check(string, config) {
   }
   if (string!=='') return false;
   else return true;
-  //какая задача, такое и решение
 }
